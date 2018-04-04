@@ -1,0 +1,44 @@
+body, button, h1, h2, h3, h4, h5, h6, input, optgroup, select, textarea {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+  font-weight: 700;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.navbar-link {
+  background-image: linear-gradient(currentColor 25%,transparent 50%);
+  background-repeat: no-repeat;
+  background-position: calc(200% - 2px) 100%;
+  background-size: 200% 2px;
+  margin-bottom: -3px;
+  padding-bottom: 3px;
+  transition: background-position .25s;
+}
+
+.navbar-link span {
+  display: inline-block
+}
+
+.auth-card {
+  max-width: 490px;
+  margin: 0 auto;
+}
+
+.auth-card .form-group .form-control {
+  font-family: "Galano",sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(14,20,26,0.8);
+}
+
+.auth-card .brand-img {
+  max-width: 280px;
+}
+
